@@ -1,0 +1,18 @@
+[
+  {
+    "title": "EOS Credit",
+    "imageSrc": "projects/eosCredit.png",
+    "description": "EOS Credit is a mobile application designed to provide convenient and secure lending services to individuals seeking financial assistance.",
+    "skills": ["Flutter"],
+    "demo": "https://www.example.com",
+    "source": "https://play.google.com/store/apps/details?id=com.eos_credit.eos_credit"
+  },
+  {
+    "title": "Smart Cradle",
+    "imageSrc": "projects/smartCradle.png",
+    "description": "This was my final project for my undergraduate studies. The Smart Cradle Project is a development of a series of software and hardware sharing and interacting information with each other to provide a solution to assist parents to monitor and take care of their babies.",
+    "skills": ["React", "Flutter", "Respberry Pi"],
+    "demo": "https://www.example.com",
+    "source": ""
+  }
+]
