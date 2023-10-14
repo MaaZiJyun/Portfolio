@@ -1,15 +1,12 @@
 @import "../../vars.css";
 
 .container {
-    color: var(--color-text);
     position: relative;
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    border-radius: 15px;
-    /* padding: 73px; */
+    color: var(--color-text);
     margin-top: 200px;
-    z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    /* border-radius: 15px; */
 }
 
 .title {
@@ -24,25 +21,40 @@
 
 .content {
     position: relative;
-    ;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 1;
 }
 
-.aboutImage {
+.chara {
     position: relative;
-    width: 35%;
+    width: 40%;
+}
+
+.people {
+    width: 100%;
     z-index: 1;
 
-    animation-name: floating;
-    animation-duration: 5s;
+    animation-name: floatingPeople;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes floating {
+.glasses {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+
+    animation-name: floatingGlasses;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floatingPeople {
     0% {
         transform: translate(0, -30%);
     }
@@ -56,8 +68,21 @@
     }
 }
 
+@keyframes floatingGlasses {
+    0% {
+        transform: translate(0, 30%);
+    }
+
+    50% {
+        transform: translate(0, -30%);
+    }
+
+    100% {
+        transform: translate(0, 30%);
+    }
+}
+
 .aboutItems {
-    z-index: 1;
     color: var(--color-text);
     display: flex;
     flex-direction: column;
@@ -65,7 +90,6 @@
 }
 
 .aboutItem {
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,6 +135,7 @@
     top: 246px;
     left: -25vw;
     border: 764px;
+    border-radius: 100%;
     background: #ffefa0;
     filter: blur(100px);
     z-index: 0;
@@ -118,13 +143,14 @@
 
 .bottomBlur {
     position: absolute;
-    width: 70vw;
-    height: 20vw;
+    width: 50vw;
+    height: 50vw;
     min-width: 100px;
     min-height: 100px;
-    bottom: 0px;
-    right: -50vw;
+    bottom: -30vw;
+    right: -30vw;
     border: 500px;
+    border-radius: 100%;
     background: #7b6079;
     filter: blur(100px);
     z-index: 0;

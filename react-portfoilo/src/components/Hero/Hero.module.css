@@ -2,7 +2,6 @@
 
 .container {
     position: relative;
-    z-index: 1;
     color: var(--color-text);
     display: flex;
     align-items: center;
@@ -14,12 +13,12 @@
 
 .content {
     position: relative;
+    z-index: 1;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: var(--color-text);
-    z-index: 1;
 }
 
 .title {
@@ -32,6 +31,8 @@
             rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    position: relative;
+    z-index: 1;
 }
 
 .description {
@@ -42,7 +43,6 @@
 
 .contactBtn {
     text-decoration: none;
-    /* background-color: var(--color-primary); */
     background-color: transparent;
     color: var(--color-text);
     border: 5px solid rgba(255, 255, 255, 0.8);
@@ -50,7 +50,6 @@
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    /* box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.4); */
 }
 
 .contactBtn:hover {
@@ -94,6 +93,7 @@
     top: -128px;
     left: 10vw;
     border: 764px;
+    border-radius: 100%;
     background: #FFC2B3;
     filter: blur(100px);
     z-index: 0;
@@ -108,6 +108,7 @@
     top: 246px;
     left: -25vw;
     border: 764px;
+    border-radius: 100%;
     background: #A9D0D9;
     filter: blur(100px);
     z-index: 0;
@@ -122,6 +123,7 @@
     top: 340px;
     right: -25vw;
     border: 764px;
+    border-radius: 100%;
     background: #D3E397;
     filter: blur(100px);
     z-index: 0;

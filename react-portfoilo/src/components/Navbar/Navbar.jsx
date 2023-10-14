@@ -10,16 +10,6 @@ const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        {/* <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        /> */}
         <i
           className={menuOpen ? "bi bi-x-lg" : "bi bi-list"}
           onClick={() => setMenuOpen(!menuOpen)}
