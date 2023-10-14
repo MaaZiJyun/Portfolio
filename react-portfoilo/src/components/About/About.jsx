@@ -19,8 +19,8 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building res and
-                optimized sites.
+                I'm a frontend developer with experience in building applications by applying Flutter and
+                React frameworks.
               </p>
             </div>
           </li>
@@ -30,7 +30,7 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience of developing fast and optimised and APIs.
+                I have experience of developing and managing database by using Laravel framework.
               </p>
             </div>
           </li>
@@ -40,7 +40,7 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Music Composer and Video Editor</h3>
               <p>
-                I have designed multiple landing pages and have systems as well.
+                I've composed multiple musics and edited videos as well. You could check my works on NetEase and Youtube.
               </p>
             </div>
           </li>

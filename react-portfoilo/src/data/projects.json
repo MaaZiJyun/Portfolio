@@ -14,5 +14,13 @@
     "skills": ["React", "Flutter", "Respberry Pi"],
     "demo": "https://www.example.com",
     "source": ""
+  },
+  {
+    "title": "TaiKi Collection",
+    "imageSrc": "projects/taiki.png",
+    "description": "This is my personal composing work. The theme of the work is an epic chinese adventure orchestra music collection.",
+    "skills": ["FL Studio", "Final Cut Pro", "Compose"],
+    "demo": "https://www.example.com",
+    "source": ""
   }
 ]
