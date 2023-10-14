@@ -14,7 +14,8 @@ const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor" />
+            {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor" /> */}
+            <i className="bi bi-display"></i>
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -24,7 +25,8 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server" />
+            {/* <img src={getImageUrl("about/serverIcon.png")} alt="Server" /> */}
+            <i className="bi bi-pc"></i>
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -33,9 +35,10 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Server" />
+            {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Server" /> */}
+            <i className="bi bi-play-btn"></i>
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Music Composer and Video Editor</h3>
               <p>
                 I have designed multiple landing pages and have systems as well.
               </p>

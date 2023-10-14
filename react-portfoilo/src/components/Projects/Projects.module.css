@@ -2,7 +2,7 @@
 
 .container {
     position: relative;
-    margin-top: 76px;
+    margin-top: 200px;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
@@ -10,7 +10,7 @@
 }
 
 .title {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -27,8 +27,13 @@
     width: 100%;
 }
 
-@media screen and (max-width: 830px){
-    .projects{
+@media screen and (max-width: 830px) {
+    
+    .title {
+        text-align: center;
+    }
+
+    .projects {
         justify-content: center;
     }
 }

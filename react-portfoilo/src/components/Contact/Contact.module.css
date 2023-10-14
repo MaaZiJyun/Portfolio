@@ -1,9 +1,9 @@
 @import "../../vars.css";
 
-.container{
+.container {
     color: var(--color-text);
-    margin-top: 120px;
-    background-color: var(--color-secondary);
+    margin-top: 200px;
+    background-color: var(--color-primary);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -12,23 +12,24 @@
     gap: 10px;
 }
 
-.text{
+.text {
+    width: 50%;
     margin-right: 20px;
 }
 
-.text h2{
-    font-size: 60px;
+.text h2 {
+    font-size: 80px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
-.text p{
+.text p {
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -36,13 +37,13 @@
     gap: 20px;
 }
 
-.link{
+.link {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.link a{
+.link a {
     color: var(--color-text);
     display: flex;
     flex-direction: row;
@@ -53,36 +54,39 @@
     letter-spacing: 1.5px;
 }
 
-.link a img{
+.link a i {
+    font-size: 40px;
     padding-right: 20px;
 }
 
-@media screen and (max-width: 830px){
-    .container{
+@media screen and (max-width: 830px) {
+
+    .container {
         align-items: center;
         flex-direction: column;
         gap: 23px;
     }
 
-    .text{
+    .text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
-    .text h2{
-        font-size: 60px;
+    .text h2 {
+        font-size: 40px;
         font-weight: 700;
         letter-spacing: 4px;
     }
-    
-    .text p{
-        font-size: 20px;
+
+    .text p {
+        font-size: 15px;
         font-weight: 400;
         letter-spacing: 2px;
     }
 
-    .links{
+    .links {
         width: 50%;
         display: flex;
         flex-direction: row;
@@ -90,7 +94,7 @@
         /* align-items: center; */
     }
 
-    .link a{
+    .link a {
         color: var(--color-text);
         text-decoration: none;
         font-size: 15px;
@@ -98,7 +102,11 @@
         letter-spacing: 1.5px;
     }
 
-       .link a p{
+    .link a p {
         display: none;
+    }
+
+    .link a i {
+        font-size: 30px;
     }
 }

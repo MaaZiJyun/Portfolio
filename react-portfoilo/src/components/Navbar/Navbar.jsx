@@ -10,7 +10,7 @@ const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
+        {/* <img
           className={styles.menuBtn}
           src={
             menuOpen
@@ -19,7 +19,11 @@ const Navbar = () => {
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+        /> */}
+        <i
+          className={menuOpen ? "bi bi-x-lg" : "bi bi-list"}
+          onClick={() => setMenuOpen(!menuOpen)}
+        ></i>
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}

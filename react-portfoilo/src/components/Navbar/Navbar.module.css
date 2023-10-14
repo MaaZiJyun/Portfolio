@@ -11,7 +11,7 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
@@ -21,9 +21,15 @@
     display: flex;
 }
 
-.menuBtn {
+.menu i{
     display: none;
+    color: #fff;;
+    font-size: 40px;
 }
+
+/* .menuBtn {
+    display: none;
+} */
 
 .menuItems {
     display: flex;
@@ -32,7 +38,7 @@
 }
 
 .menuItems a {
-    font-style: 25px;
+    font-size: 20px;
     color: var(--color-text);
     text-decoration: none;
 }
@@ -53,7 +59,7 @@
         z-index: 3;
     }
 
-    .menuBtn {
+    .menu i {
         display: block;
         cursor: pointer;
     }

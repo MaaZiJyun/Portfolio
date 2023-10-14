@@ -3,7 +3,7 @@
 .container {
     position: relative;
     color: var(--color-text);
-    margin-top: 79px;
+    margin-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
     z-index: 1;
@@ -11,10 +11,11 @@
 
 .title {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    position: relative;
     z-index: 1;
 }
 
@@ -22,7 +23,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 14px;
+    margin-top: 87px;
     z-index: 1;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .skillImageContainer {
-    background-color: var(--color-secondary);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -63,6 +64,7 @@
 
 .history {
     width: 45%;
+    margin-top: 34px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -74,10 +76,9 @@
     flex-direction: row;
     align-items: center;
     gap: 17px;
-    background: #19376d;
     background: linear-gradient(90deg,
-            rgba(0, 0, 0, 0.1) 0%,
-            rgba(0, 0, 0, 0) 100%);
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 100%);
     border-radius: 10px;
     padding: 24px;
 }
@@ -103,8 +104,8 @@
 
 .historyItemDetails ul {
     font-size: 20px;
-    margin-left: 17px;
-    margin-top: 6px;
+    /* margin-left: 17px;
+    margin-top: 6px; */
     list-style-type: none;
     list-style-position: inside;
 }
@@ -124,6 +125,11 @@
 }
 
 @media screen and (max-width:830px) {
+
+    .title{
+        text-align: center;
+    }
+
     .content {
         flex-direction: column;
         align-items: center;
@@ -136,8 +142,28 @@
         justify-content: center;
     }
 
+    .skill p {
+        font-size: 20px;
+    }
+
     .history {
         width: 100%;
         gap: 9px;
+    }
+
+    .historyItem{
+        flex-direction: column;
+    }
+
+    .historyItemDetails h3 {
+        font-size: 25px;
+    }
+    
+    .historyItemDetails p {
+        font-size: 12px;
+    }
+
+    .historyItemDetails ul {
+        font-size: 15px;
     }
 }
